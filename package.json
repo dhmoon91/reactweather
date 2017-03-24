@@ -1,20 +1,15 @@
 {
-  "name": "Weather app",
+  "name": "weather",
   "version": "1.0.0",
-  "description": "Simple react app",
+  "description": "simple weather app",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "Stanley Moon",
-  "license": "MIT",
   "dependencies": {
     "axios": "^0.9.1",
-    "express": "^4.13.4",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
-    "react-router": "^2.0.0"
+       "express": "^4.13.4",
+       "react": "^0.14.7",
+       "react-dom": "^0.14.7",
+       "react-router": "^2.0.0"
+
   },
   "devDependencies": {
     "babel-core": "^6.5.1",
@@ -29,6 +24,19 @@
     "sass-loader": "^3.1.2",
     "script-loader": "^0.6.1",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.13"
-  }
+      "webpack": "^1.12.13"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhmoon91/reactweather.git"
+  },
+  "author": "stanley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhmoon91/reactweather/issues"
+  },
+  "homepage": "https://github.com/dhmoon91/reactweather#readme"
 }
