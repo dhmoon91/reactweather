@@ -1,1 +1,1 @@
-REACT weather app.
+React Weather App
